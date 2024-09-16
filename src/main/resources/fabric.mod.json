@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zvid",
+  "version": "${version}",
+  "name": "ZombieVillagerIgnoreDifficulty",
+  "description": "Makes it so villager curing has a 100% chance regardless of difficulty.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/zvid/icon.png",
+  "environment": "server",
+  "entrypoints": {},
+  "mixins": [
+    "zvid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~1.21"
+  }
+}
