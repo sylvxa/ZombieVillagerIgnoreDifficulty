@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "icon": "assets/zvid/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {},
   "mixins": [
     "zvid.mixins.json"
