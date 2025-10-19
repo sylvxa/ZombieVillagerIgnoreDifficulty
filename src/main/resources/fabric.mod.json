@@ -4,8 +4,21 @@
   "version": "${version}",
   "name": "ZombieVillagerIgnoreDifficulty",
   "description": "Makes it so villager curing has a 100% chance regardless of difficulty.",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    {
+      "name": "sylvxa",
+      "contact": {
+        "email": "me@sylvie.lol",
+        "homepage": "https://sylvie.lol"
+      }
+    }
+  ],
+  "contact": {
+    "repo": "https://github.com/sylvxa/ZombieVillagerIgnoreDifficulty",
+    "homepage": "https://modrinth.com/project/zvid",
+    "issues": "https://github.com/sylvxa/ZombieVillagerIgnoreDifficulty/issues",
+    "discord": "https://discord.gg/5qzrB98sBA"
+  },
   "license": "MIT",
   "icon": "assets/zvid/icon.png",
   "environment": "server",
@@ -15,6 +28,6 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": "~1.21"
+    "minecraft": ">=1.21.9"
   }
 }

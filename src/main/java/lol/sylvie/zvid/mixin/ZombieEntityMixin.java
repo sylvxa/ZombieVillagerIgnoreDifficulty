@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(ZombieEntity.class)
 public class ZombieEntityMixin {
     @Redirect(method = "onKilledOther", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/world/ServerWorld;getDifficulty()Lnet/minecraft/world/Difficulty;"))
-    public Difficulty easyvillagercuring$redirectDifficulty(ServerWorld instance) {
+    public Difficulty zvid$redirectDifficulty(ServerWorld instance) {
         return Difficulty.HARD;
     }
 }
